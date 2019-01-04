@@ -1,0 +1,43 @@
+from distutils.core import setup
+
+setup(
+    name='apiflash',
+    packages=['apiflash'],
+    version='0.1',
+    license='MIT',
+    description='The official python client of ApiFlash, website screenshot API.',
+    author='Timothée Jeannin',
+    author_email='tjeannin@apiflash.com',
+    url='https://github.com/ApiFlash/python-client',
+    keywords=[
+        "screenshots",
+        "urlbox",
+        "urlbox.io",
+        "phantom",
+        "phantomjs",
+        "screenshot",
+        "website",
+        "urlbox",
+        "headless",
+        "chrome",
+        "screenshotlayer",
+        "render",
+        "page",
+        "webkit",
+        "webkit2png",
+        "url2png",
+        "fullpage",
+        "fullheight"
+    ],
+    install_requires=[],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+    ],
+)

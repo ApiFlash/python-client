@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "$0")/.."
+
+./env/bin/python setup.py sdist bdist_wheel
+./env/bin/twine upload dist/*
+
+rm -r apiflash.egg-info
+rm -r build
+rm -r dist

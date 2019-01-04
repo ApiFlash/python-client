@@ -1,4 +1,5 @@
 # read the contents of your README file
+from collections import OrderedDict
 from os import path
 
 from setuptools import setup
@@ -10,14 +11,19 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='apiflash',
     packages=['apiflash'],
-    version='0.1.1',
+    version='0.1.2',
+    url='https://apiflash.com/',
+    project_urls=OrderedDict((
+        ('Documentation', 'https://apiflash.com/documentation'),
+        ('Code', 'https://github.com/ApiFlash/python-client'),
+        ('Issue tracker', 'https://github.com/ApiFlash/python-client/issues'),
+    )),
     license='MIT',
     description='The official python client of ApiFlash, website screenshot API.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Timothée Jeannin',
     author_email='tjeannin@apiflash.com',
-    url='https://github.com/ApiFlash/python-client',
     keywords=[
         "screenshots",
         "urlbox",

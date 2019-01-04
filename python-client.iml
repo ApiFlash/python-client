@@ -5,8 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/env" />
     </content>
-    <content url="file://$MODULE_DIR$/env" />
-    <orderEntry type="jdk" jdkName="Python 3.6 (apiflash) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (python-client)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

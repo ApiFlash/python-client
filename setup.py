@@ -11,7 +11,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='apiflash',
     packages=['apiflash'],
-    version='0.1.2',
+    version='0.1.3',
     url='https://apiflash.com/',
     project_urls=OrderedDict((
         ('Documentation', 'https://apiflash.com/documentation'),

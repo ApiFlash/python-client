@@ -1,10 +1,11 @@
 # ApiFlash Python Client
 
-Easily capture website screenshots using the ApiFlash [website screenshot API](https://apiflash.com). 
-
-Signup at [apiflash.com](https://apiflash.com) to get your API key.
+This is a placeholder for a future python ApiFlash [website screenshot API](https://apiflash.com) client. 
+Get in touch with us at [contact@apiflash.com](mailto:contact@apiflash.com) if you need this client. 
 
 ## Installation
+
+Signup at [apiflash.com](https://apiflash.com) to get your API key.
 
 ```
 pip install apiflash
@@ -13,8 +14,7 @@ pip install apiflash
 ## Example
 
 ```python
-# TODO
-print('ok')
+# Python client not available yet.
 ```
 
 ## Parameters
